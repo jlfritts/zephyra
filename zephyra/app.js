@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 'use strict';
 var debug = require('debug');
 var express = require('express');
