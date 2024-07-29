@@ -1,4 +1,7 @@
 require('dotenv').config();
+require('dotenv').config(); // Load environment variables
+
+const wmtsCapabilitiesUrl = process.env.WMTS_CAPABILITIES_URL;
 
 'use strict';
 var debug = require('debug');
